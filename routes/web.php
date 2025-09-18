@@ -28,7 +28,7 @@ use PHPUnit\Framework\Attributes\Group;
 
 //==========For Feontend Route Group =============================================
 
-Route::controller(ControllerFrontend::class)->group(function(){
+Route::controller(controller: ControllerFrontend::class)->group(function(){
     Route::get('/','index')->name('index');
     Route::get('/products', 'products')->name("products");
     Route::get('/loginf','login')->name('login_f');
