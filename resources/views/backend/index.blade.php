@@ -3,19 +3,19 @@
 <html lang="en">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Kaiadmin - Bootstrap 5 Admin Dashboard</title>
+    <title>Online Shope BD Admin Dashboard</title>
     <meta
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
       name="viewport"
     />
     <link
       rel="icon"
-      href="assets/img/kaiadmin/favicon.ico"
+      href="{{ asset('backend') }}/assets/img/kaiadmin/favicon.ico"
       type="image/x-icon"
     />
 
     <!-- Fonts and icons -->
-    <script src="assets/js/plugin/webfont/webfont.min.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/plugin/webfont/webfont.min.js"></script>
     <script>
       WebFont.load({
         google: { families: ["Public Sans:300,400,500,600,700"] },
@@ -26,7 +26,7 @@
             "Font Awesome 5 Brands",
             "simple-line-icons",
           ],
-          urls: ["assets/css/fonts.min.css"],
+          urls: ["{{ asset('backend') }}/assets/css/fonts.min.css"],
         },
         active: function () {
           sessionStorage.fonts = true;
@@ -35,12 +35,12 @@
     </script>
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/plugins.min.css" />
-    <link rel="stylesheet" href="assets/css/kaiadmin.min.css" />
+    <link rel="stylesheet" href="{{ asset('backend') }}/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ asset('backend') }}/assets/css/plugins.min.css" />
+    <link rel="stylesheet" href="{{ asset('backend') }}/assets/css/kaiadmin.min.css" />
 
     <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link rel="stylesheet" href="assets/css/demo.css" />
+    <link rel="stylesheet" href="{{ asset('backend') }}/assets/css/demo.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -51,7 +51,7 @@
           <div class="logo-header" data-background-color="dark">
             <a href="index.html" class="logo">
               <img
-                src="assets/img/kaiadmin/logo_light.svg"
+                src="{{ asset('backend') }}/assets/img/kaiadmin/logo_light.svg"
                 alt="navbar brand"
                 class="navbar-brand"
                 height="20"
@@ -335,7 +335,7 @@
             <div class="logo-header" data-background-color="dark">
               <a href="index.html" class="logo">
                 <img
-                  src="assets/img/kaiadmin/logo_light.svg"
+                  src="{{ asset('backend') }}/assets/img/kaiadmin/logo_light.svg"
                   alt="navbar brand"
                   class="navbar-brand"
                   height="20"
@@ -433,7 +433,7 @@
                           <a href="#">
                             <div class="notif-img">
                               <img
-                                src="assets/img/jm_denis.jpg"
+                                src="{{ asset('backend') }}/assets/img/jm_denis.jpg"
                                 alt="Img Profile"
                               />
                             </div>
@@ -446,7 +446,7 @@
                           <a href="#">
                             <div class="notif-img">
                               <img
-                                src="assets/img/chadengle.jpg"
+                                src="{{ asset('backend') }}/assets/img/chadengle.jpg"
                                 alt="Img Profile"
                               />
                             </div>
@@ -459,7 +459,7 @@
                           <a href="#">
                             <div class="notif-img">
                               <img
-                                src="assets/img/mlane.jpg"
+                                src="{{ asset('backend') }}/assets/img/mlane.jpg"
                                 alt="Img Profile"
                               />
                             </div>
@@ -474,7 +474,7 @@
                           <a href="#">
                             <div class="notif-img">
                               <img
-                                src="assets/img/talha.jpg"
+                                src="{{ asset('backend') }}/assets/img/talha.jpg"
                                 alt="Img Profile"
                               />
                             </div>
@@ -542,7 +542,7 @@
                           <a href="#">
                             <div class="notif-img">
                               <img
-                                src="assets/img/profile2.jpg"
+                                src="{{ asset('backend') }}/assets/img/profile2.jpg"
                                 alt="Img Profile"
                               />
                             </div>
@@ -660,7 +660,7 @@
                   >
                     <div class="avatar-sm">
                       <img
-                        src="assets/img/profile.jpg"
+                        src="{{ asset('backend') }}/assets/img/profile.jpg"
                         alt="..."
                         class="avatar-img rounded-circle"
                       />
@@ -676,7 +676,7 @@
                         <div class="user-box">
                           <div class="avatar-lg">
                             <img
-                              src="assets/img/profile.jpg"
+                              src="{{ asset('backend') }}/assets/img/profile.jpg"
                               alt="image profile"
                               class="avatar-img rounded"
                             />
@@ -935,7 +935,7 @@
                                 <td>
                                   <div class="flag">
                                     <img
-                                      src="assets/img/flags/id.png"
+                                      src="{{ asset('backend') }}/assets/img/flags/id.png"
                                       alt="indonesia"
                                     />
                                   </div>
@@ -948,7 +948,7 @@
                                 <td>
                                   <div class="flag">
                                     <img
-                                      src="assets/img/flags/us.png"
+                                      src="{{ asset('backend') }}/assets/img/flags/us.png"
                                       alt="united states"
                                     />
                                   </div>
@@ -961,7 +961,7 @@
                                 <td>
                                   <div class="flag">
                                     <img
-                                      src="assets/img/flags/au.png"
+                                      src="{{ asset('backend') }}/assets/img/flags/au.png"
                                       alt="australia"
                                     />
                                   </div>
@@ -974,7 +974,7 @@
                                 <td>
                                   <div class="flag">
                                     <img
-                                      src="assets/img/flags/ru.png"
+                                      src="{{ asset('backend') }}/assets/img/flags/ru.png"
                                       alt="russia"
                                     />
                                   </div>
@@ -987,7 +987,7 @@
                                 <td>
                                   <div class="flag">
                                     <img
-                                      src="assets/img/flags/cn.png"
+                                      src="{{ asset('backend') }}/assets/img/flags/cn.png"
                                       alt="china"
                                     />
                                   </div>
@@ -1000,7 +1000,7 @@
                                 <td>
                                   <div class="flag">
                                     <img
-                                      src="assets/img/flags/br.png"
+                                      src="{{ asset('backend') }}/assets/img/flags/br.png"
                                       alt="brazil"
                                     />
                                   </div>
@@ -1062,7 +1062,7 @@
                       <div class="item-list">
                         <div class="avatar">
                           <img
-                            src="assets/img/jm_denis.jpg"
+                            src="{{ asset('backend') }}/assets/img/jm_denis.jpg"
                             alt="..."
                             class="avatar-img rounded-circle"
                           />
@@ -1099,7 +1099,7 @@
                       <div class="item-list">
                         <div class="avatar">
                           <img
-                            src="assets/img/talha.jpg"
+                            src="{{ asset('backend') }}/assets/img/talha.jpg"
                             alt="..."
                             class="avatar-img rounded-circle"
                           />
@@ -1118,7 +1118,7 @@
                       <div class="item-list">
                         <div class="avatar">
                           <img
-                            src="assets/img/chadengle.jpg"
+                            src="{{ asset('backend') }}/assets/img/chadengle.jpg"
                             alt="..."
                             class="avatar-img rounded-circle"
                           />
@@ -1558,41 +1558,41 @@
       <!-- End Custom template -->
     </div>
     <!--   Core JS Files   -->
-    <script src="assets/js/core/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/core/popper.min.js"></script>
-    <script src="assets/js/core/bootstrap.min.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/core/popper.min.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/core/bootstrap.min.js"></script>
 
     <!-- jQuery Scrollbar -->
-    <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 
     <!-- Chart JS -->
-    <script src="assets/js/plugin/chart.js/chart.min.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/plugin/chart.js/chart.min.js"></script>
 
     <!-- jQuery Sparkline -->
-    <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
 
     <!-- Chart Circle -->
-    <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/plugin/chart-circle/circles.min.js"></script>
 
     <!-- Datatables -->
-    <script src="assets/js/plugin/datatables/datatables.min.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/plugin/datatables/datatables.min.js"></script>
 
     <!-- Bootstrap Notify -->
-    <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
 
     <!-- jQuery Vector Maps -->
-    <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
-    <script src="assets/js/plugin/jsvectormap/world.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/plugin/jsvectormap/world.js"></script>
 
     <!-- Sweet Alert -->
-    <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/plugin/sweetalert/sweetalert.min.js"></script>
 
     <!-- Kaiadmin JS -->
-    <script src="assets/js/kaiadmin.min.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/kaiadmin.min.js"></script>
 
     <!-- Kaiadmin DEMO methods, don't include it in your project! -->
-    <script src="assets/js/setting-demo.js"></script>
-    <script src="assets/js/demo.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/setting-demo.js"></script>
+    <script src="{{ asset('backend') }}/assets/js/demo.js"></script>
     <script>
       $("#lineChart").sparkline([102, 109, 120, 99, 110, 105, 115], {
         type: "line",
