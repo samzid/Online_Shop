@@ -4,7 +4,7 @@ use App\Http\Controllers\Frontend\ControllerFrontend;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use PHPUnit\Framework\Attributes\Group;
-
+use App\Http\Controllers\backend\BackendController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,16 +26,32 @@ use PHPUnit\Framework\Attributes\Group;
 
 
 
-//==========For Feontend Route Group =============================================
+//==========For Frontend Route Group =============================================
 
-Route::controller(controller: ControllerFrontend::class)->group(function(){
+Route::controller( ControllerFrontend::class)->group(function(){
     Route::get('/','index')->name('index');
     Route::get('/products', 'products')->name("products");
     Route::get('/loginf','login')->name('login_f');
     Route::get('/topbrand','topbrand')->name("topbrand");
-    Route::get("cart","cart")->name("cart");
-    Route::get("contact","contact")->name("contact");
+    Route::get("/cart","cart")->name("cart");
+    Route::get("/contact","contact")->name("contact");
 });
+
+// ================registerton From============================================
+
+//Route::get("/register ", [ControllerRegister::class,"register"])->name("register");
+
+
+
+
+
+//=============== Backend ==============================
+
+Route::controller(BackendController::class)->group(function(){
+    Route::get('/admin', 'index')->name('backend_index');
+});
+
+
 
 
 

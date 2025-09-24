@@ -13,6 +13,7 @@
                  <p class="note">If you forgot your passoword just enter your email and click <a href="#">here</a></p>
                     <div class="buttons"><div><button class="grey">Sign In</button></div></div>
                     </div>
+					
     	<div class="register_account">
     		<h3>Register New Account</h3>
     		<form>
